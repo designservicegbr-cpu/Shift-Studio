@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Shift Studio | Productora Multimedia & Creative Media Partner</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600;700;900&family=Rajdhani:wght@300;400;600;700&family=Barlow:ital,wght@0,200;0,300;0,400;0,600;0,800;1,300&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- BACKGROUND LAYERS -->
+  <div class="bg-grid"></div>
+  <div class="bg-orb orb-1"></div>
+  <div class="bg-orb orb-2"></div>
+  <div class="bg-orb orb-3"></div>
+
+  <!-- ══════════════ NAV ══════════════ -->
+  <nav class="navbar">
+    <div class="nav-logo">
+      <span class="logo-dsg">SHIFT STUDIO</span>
+      <span class="logo-full">creative media partner</span>
+    </div>
+    <ul class="nav-links">
+      <li><a href="#inicio">Inicio</a></li>
+      <li><a href="#servicios">Servicios</a></li>
+      <li><a href="#nosotros">Nosotros</a></li>
+      <li><a href="#planes">Planes</a></li>
+      <li><a href="#clientes">Clientes</a></li>
+      <li><a href="#contacto">Contacto</a></li>
+    </ul>
+    <a href="https://wa.me/573502654199" target="_blank" class="nav-cta">
+      <svg viewBox="0 0 24 24" fill="currentColor" width="16" height="16"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12.004 2C6.486 2 2.01 6.477 2.01 11.996c0 1.995.531 3.878 1.462 5.51L2 22l4.611-1.443a9.94 9.94 0 0 0 5.393 1.567h.005c5.517 0 9.992-4.477 9.992-9.996C21.999 6.477 17.522 2.001 12.004 2Zm0 18.05a8.03 8.03 0 0 1-4.099-1.122l-.294-.176-3.058.957.968-2.98-.192-.306a8.04 8.04 0 0 1-1.242-4.287c0-4.44 3.617-8.053 8.062-8.053 4.442 0 8.055 3.616 8.055 8.056 0 4.44-3.613 8.056-8.055 8.056Z"/></svg>
+      WhatsApp
+    </a>
+    <button class="hamburger" id="hamburger" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <!-- Mobile Menu -->
+  <div class="mobile-menu" id="mobileMenu">
+    <ul>
+      <li><a href="#inicio" onclick="closeMobile()">Inicio</a></li>
+      <li><a href="#servicios" onclick="closeMobile()">Servicios</a></li>
+      <li><a href="#nosotros" onclick="closeMobile()">Nosotros</a></li>
+      <li><a href="#planes" onclick="closeMobile()">Planes</a></li>
+      <li><a href="#clientes" onclick="closeMobile()">Clientes</a></li>
+      <li><a href="#contacto" onclick="closeMobile()">Contacto</a></li>
+    </ul>
+  </div>
+
+  <main>
+
+    <!-- ══════════════ HERO ══════════════ -->
+    <section class="hero" id="inicio">
+      <div class="hero-badge">
+        <span class="pulse-dot"></span>
+        Productora Multimedia · Cajicá, Cundinamarca, Colombia
+      </div>
+
+      <img class="hero-logo" src="shift-studio-logo.png" alt="Shift Studio" />
+
+      <div class="hero-slogan">We Create. We Connect. We Shift.</div>
+
+      <h1 class="hero-title">
+        ¡Bienvenidos a<br>
+        <span class="gradient-text">Shift Studio!</span>
+      </h1>
+      <p class="hero-desc">
+        Somos una productora multimedia y <strong>Creative Media Partner</strong> comprometida en ayudar a negocios, startups y creadores digitales a impulsar su presencia en redes sociales a través de contenido audiovisual estratégico.
+        <strong>Convertimos visibilidad en ventas reales.</strong>
+      </p>
+      <div class="hero-btns">
+        <a href="#servicios" class="btn-primary">Descubre Más</a>
+        <a href="#planes" class="btn-outline">Ver Planes</a>
+      </div>
+      <div class="hero-stats">
+        <div class="stat">
+          <div class="stat-number">150+</div>
+          <div class="stat-label">Proyectos</div>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat">
+          <div class="stat-number">6+</div>
+          <div class="stat-label">Clientes Activos</div>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat">
+          <div class="stat-number">5</div>
+          <div class="stat-label">Servicios</div>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat">
+          <div class="stat-number">4</div>
+          <div class="stat-label">Plataformas</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ══════════════ SERVICES ══════════════ -->
+    <section class="section" id="servicios">
+      <div class="container">
+        <div class="section-header">
+          <div class="eyebrow">Qué hacemos</div>
+          <h2 class="section-title">Nuestras Soluciones</h2>
+        </div>
+        <div class="services-grid">
+
+          <div class="service-card">
+            <div class="svc-num">01</div>
+            <div class="svc-icon">🎬</div>
+            <h3 class="svc-name">Producción Audiovisual</h3>
+            <p class="svc-desc">Video corporativo, publicitario y contenido audiovisual con calidad cinematográfica para tus plataformas digitales.</p>
+            <a href="#contacto" class="svc-link">Cotizar →</a>
+          </div>
+
+          <div class="service-card">
+            <div class="svc-num">02</div>
+            <div class="svc-icon">🌐</div>
+            <h3 class="svc-name">Estrategias Transmedia</h3>
+            <p class="svc-desc">Historias que se expanden y cobran sentido en cada plataforma, conectando cada pieza de contenido.</p>
+            <a href="#contacto" class="svc-link">Cotizar →</a>
+          </div>
+
+          <div class="service-card">
+            <div class="svc-num">03</div>
+            <div class="svc-icon">📈</div>
+            <h3 class="svc-name">Marketing Digital</h3>
+            <p class="svc-desc">Campañas que conectan el valor real de tu marca con la audiencia correcta.</p>
+            <a href="#contacto" class="svc-link">Cotizar →</a>
+          </div>
+
+          <div class="service-card">
+            <div class="svc-num">04</div>
+            <div class="svc-icon">📱</div>
+            <h3 class="svc-name">Gestión de Redes Sociales</h3>
+            <p class="svc-desc">Administración estratégica de Instagram, TikTok, Facebook y YouTube con contenido con propósito.</p>
+            <a href="#contacto" class="svc-link">Cotizar →</a>
+          </div>
+
+          <div class="service-card">
+            <div class="svc-num">05</div>
+            <div class="svc-icon">✨</div>
+            <h3 class="svc-name">Motion Graphics</h3>
+            <p class="svc-desc">Animación y diseño en movimiento que le da vida a cada idea y producto.</p>
+            <a href="#contacto" class="svc-link">Cotizar →</a>
+          </div>
+
+          <div class="service-card">
+            <div class="svc-num">06</div>
+            <div class="svc-icon">📷</div>
+            <h3 class="svc-name">Fotografía Profesional de Producto</h3>
+            <p class="svc-desc">Imágenes de alta calidad que elevan la percepción de tus productos.</p>
+            <a href="#contacto" class="svc-link">Cotizar →</a>
+          </div>
+
+          <div class="service-card">
+            <div class="svc-num">07</div>
+            <div class="svc-icon">🎨</div>
+            <h3 class="svc-name">Diseño Gráfico</h3>
+            <p class="svc-desc">Piezas visuales alineadas a la identidad y los objetivos de tu marca.</p>
+            <a href="#contacto" class="svc-link">Cotizar →</a>
+          </div>
+
+          <div class="service-card">
+            <div class="svc-num">08</div>
+            <div class="svc-icon">🏷️</div>
+            <h3 class="svc-name">Branding e Identidad de Marca</h3>
+            <p class="svc-desc">Construimos marcas que inspiran confianza y se reconocen al instante.</p>
+            <a href="#contacto" class="svc-link">Cotizar →</a>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ══════════════ ABOUT / IDENTIDAD ══════════════ -->
+    <section class="section section-alt" id="nosotros">
+      <div class="container">
+
+        <div class="section-header">
+          <div class="eyebrow">Quiénes somos</div>
+          <h2 class="section-title">¿Qué es Shift Studio?</h2>
+        </div>
+
+        <div class="about-text" style="max-width:780px;">
+          <p><strong>Shift Studio</strong> es una productora multimedia y un <strong>Creative Media Partner</strong> que integra creatividad, estrategia y tecnología para ayudar a las marcas a comunicar, conectar y crecer en el entorno digital.</p>
+          <p>Más que crear contenido, diseñamos experiencias audiovisuales y estrategias transmedia que convierten las ideas en historias capaces de generar reconocimiento, fortalecer la identidad de marca y producir resultados de negocio.</p>
+          <p>Entendemos que las redes sociales no consisten en publicar por publicar. Cada video, fotografía, animación, diseño o campaña debe tener un propósito: comunicar el valor de un producto o servicio, conectar con la audiencia adecuada y generar oportunidades comerciales.</p>
+          <p>Trabajamos principalmente con empresas del sector tecnológico —tiendas de smartphones, accesorios, computación, consolas y videojuegos— así como con consultorios odontológicos, clínicas dentales y laboratorios dentales, desarrollando estrategias que les permiten diferenciarse de la competencia y posicionarse como referentes en su industria.</p>
+          <div class="platform-tags">
+            <span class="tag">Instagram</span>
+            <span class="tag">TikTok</span>
+            <span class="tag">Facebook</span>
+            <span class="tag">YouTube</span>
+          </div>
+        </div>
+
+        <h3 class="sub-title">Nuestra metodología</h3>
+        <div class="metodologia-box">
+          <p style="margin:0;">En Shift Studio unimos estrategia, creatividad, producción y tecnología para desarrollar contenidos que informan, inspiran, conectan y convierten. Cada proyecto comienza con una estrategia clara y termina con contenido diseñado para generar impacto y resultados medibles.</p>
+        </div>
+
+        <h3 class="sub-title">Misión &amp; Visión</h3>
+        <div class="mv-grid">
+          <div class="mv-panel mision">
+            <h4>🎯 Misión</h4>
+            <p>En Shift Studio transformamos ideas en experiencias audiovisuales y digitales que conectan marcas con sus audiencias. Desarrollamos producción multimedia, estrategias transmedia y contenido creativo con propósito, combinando innovación, tecnología y narrativa para fortalecer la identidad de cada marca, aumentar su visibilidad en redes sociales y generar resultados que impulsen su crecimiento.</p>
+          </div>
+          <div class="mv-panel vision">
+            <h4>🚀 Visión</h4>
+            <p>Ser una productora multimedia y agencia de social media líder en Colombia, con proyección hacia Latinoamérica, reconocida por crear estrategias transmedia innovadoras, contenido audiovisual de alto impacto y experiencias digitales que integren creatividad, tecnología y storytelling. Aspiramos a impulsar el crecimiento y posicionamiento de empresas y emprendedores, convirtiéndonos en un aliado estratégico para las marcas que desean destacar y conectar con su audiencia.</p>
+          </div>
+        </div>
+
+        <h3 class="sub-title">Nuestro propósito</h3>
+        <div class="manifest">
+          <p class="m-line">No producimos contenido para llenar redes sociales.</p>
+          <p class="m-line">Creamos historias que generan impacto.</p>
+          <p class="m-line">Construimos marcas que inspiran confianza.</p>
+          <p class="m-line">Diseñamos estrategias que conectan con las personas.</p>
+          <p class="m-line closing">Y desarrollamos experiencias audiovisuales que ayudan a nuestros clientes a aumentar su visibilidad, fortalecer su posicionamiento y hacer crecer su negocio.</p>
+        </div>
+
+        <h3 class="sub-title">Nuestra filosofía</h3>
+        <div class="phil">
+          <p>Cada marca tiene una historia. Nuestra misión es encontrarla, darle una identidad visual, convertirla en una experiencia y llevarla a cada plataforma mediante una estrategia transmedia que genere valor, comunidad y resultados.</p>
+          <p>Porque cuando la creatividad se une con la estrategia y la tecnología, el contenido deja de ser una publicación y se convierte en una herramienta de crecimiento.</p>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ══════════════ PLANS ══════════════ -->
+    <section class="section" id="planes">
+      <div class="container">
+        <div class="section-header">
+          <div class="eyebrow">Elige tu plan</div>
+          <h2 class="section-title">Nuestros Paquetes</h2>
+        </div>
+        <div class="plans-grid">
+
+          <div class="plan-card">
+            <div class="plan-index">1</div>
+            <h3 class="plan-name">Principiante</h3>
+            <div class="plan-price">$590.000 <span>COP / mes</span></div>
+            <ul class="plan-features">
+              <li>Plan de contenido y brief</li>
+              <li>Estrategia transmedia 1 red social</li>
+              <li>Google Ads</li>
+              <li>8 Reels</li>
+              <li>7 Posters</li>
+              <li>3 Historias por semana</li>
+            </ul>
+            <a href="#contacto" class="plan-btn">Más Información</a>
+          </div>
+
+          <div class="plan-card plan-featured">
+            <div class="plan-badge">Más Popular</div>
+            <div class="plan-index">2</div>
+            <h3 class="plan-name">Delux</h3>
+            <div class="plan-price">$890.000 <span>COP / mes</span></div>
+            <ul class="plan-features">
+              <li>Plan de contenido y brief</li>
+              <li>Estrategia transmedia 3 redes sociales</li>
+              <li>Meta Ads</li>
+              <li>20 Reels</li>
+              <li>17 Posters</li>
+              <li>9 Historias por semana</li>
+              <li>15 Fotos de producto</li>
+              <li>Página web incluida</li>
+            </ul>
+            <a href="#contacto" class="plan-btn plan-btn-featured">Más Información</a>
+          </div>
+
+          <div class="plan-card">
+            <div class="plan-index">3</div>
+            <h3 class="plan-name">Creador de Contenido</h3>
+            <div class="plan-price" style="font-size: 1rem; letter-spacing: 1px;">YouTube & TikTok</div>
+            <ul class="plan-features">
+              <li>Edición de video especializada</li>
+              <li>Asesoría para monetización</li>
+              <li>Optimización de algoritmo</li>
+              <li>1–5 min → $15 USD</li>
+              <li>7–10 min → $20 USD</li>
+              <li>Cobro por minutos editados</li>
+            </ul>
+            <a href="#contacto" class="plan-btn">Más Información</a>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ══════════════ CLIENTS ══════════════ -->
+    <section class="section section-alt" id="clientes">
+      <div class="container">
+        <div class="section-header">
+          <div class="eyebrow">Confiaron en nosotros</div>
+          <h2 class="section-title">Nuestros Clientes</h2>
+        </div>
+        <div class="clients-grid">
+          <div class="client-tile"><img src="https://static.wixstatic.com/media/915f50_686e318d29584a8a89e20d421e35516f~mv2.jpg/v1/fill/w_226,h_226,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/468584863_589573757069762_5568547303490671403_n.jpg" alt="Cliente 1" /></div>
+          <div class="client-tile"><img src="https://static.wixstatic.com/media/915f50_a19e46b4e234475699963bb28d976540~mv2.jpg/v1/fill/w_226,h_226,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/356024661_1218380912160408_6587791846512528757_n.jpg" alt="Cliente 2" /></div>
+          <div class="client-tile"><img src="https://static.wixstatic.com/media/915f50_cc0c35b6fba94ef09988bb2dcfe5808f~mv2.jpg/v1/fill/w_226,h_226,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/149266828_146266567333687_1098800803420523240_n.jpg" alt="Cliente 3" /></div>
+          <div class="client-tile"><img src="https://static.wixstatic.com/media/915f50_83510c8970184d51817148205a42ee02~mv2.jpg/v1/fill/w_226,h_226,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/612197515_18417921547186440_2895863856227692875_n.jpg" alt="Cliente 4" /></div>
+          <div class="client-tile"><img src="https://static.wixstatic.com/media/915f50_b03986266b1347aca28094f1b993896f~mv2.jpg/v1/fill/w_226,h_226,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/145478040_233665751578410_2282000055563370815_n.jpg" alt="Cliente 5" /></div>
+          <div class="client-tile"><img src="https://static.wixstatic.com/media/915f50_66e408c196e44440815e4ee834e0eb22~mv2.jpg/v1/fill/w_226,h_226,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/74693425_445030752876095_8875609527035101184_n.jpg" alt="Cliente 6" /></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ══════════════ PORTFOLIO ══════════════ -->
+    <section class="section" id="portafolio">
+      <div class="container">
+        <div class="section-header">
+          <div class="eyebrow">Nuestro trabajo</div>
+          <h2 class="section-title">Proyectos</h2>
+        </div>
+        <div class="portfolio-grid">
+          <div class="port-item">
+            <img src="https://static.wixstatic.com/media/915f50_d92df848f6e9472cb4392c39b3dd96f1~mv2.png/v1/fit/w_480,h_502,q_90,enc_avif,quality_auto/915f50_d92df848f6e9472cb4392c39b3dd96f1~mv2.png" alt="Proyecto 1" />
+            <div class="port-overlay"><span>Proyecto 1</span></div>
+          </div>
+          <div class="port-item">
+            <img src="https://static.wixstatic.com/media/915f50_be2dec8a171b492c863e23be1a182f20~mv2.png/v1/fit/w_480,h_406,q_90,enc_avif,quality_auto/915f50_be2dec8a171b492c863e23be1a182f20~mv2.png" alt="Proyecto 2" />
+            <div class="port-overlay"><span>Proyecto 2</span></div>
+          </div>
+          <div class="port-item">
+            <img src="https://static.wixstatic.com/media/915f50_8bf702844dc34f3abe036f338e37fa9a~mv2.png/v1/fit/w_437,h_427,q_90,enc_avif,quality_auto/915f50_8bf702844dc34f3abe036f338e37fa9a~mv2.png" alt="Proyecto 3" />
+            <div class="port-overlay"><span>Proyecto 3</span></div>
+          </div>
+          <div class="port-item">
+            <img src="https://static.wixstatic.com/media/915f50_05ae749102f447ae9b9375fe124a4f4b~mv2.png/v1/fit/w_249,h_463,q_90,enc_avif,quality_auto/915f50_05ae749102f447ae9b9375fe124a4f4b~mv2.png" alt="Proyecto 4" />
+            <div class="port-overlay"><span>Proyecto 4</span></div>
+          </div>
+          <div class="port-item">
+            <img src="https://static.wixstatic.com/media/915f50_62b874b0cdbd4daa8c55ac54b800b66f~mv2.jpg/v1/fit/w_480,h_479,q_90,enc_avif,quality_auto/915f50_62b874b0cdbd4daa8c55ac54b800b66f~mv2.jpg" alt="Proyecto 5" />
+            <div class="port-overlay"><span>Proyecto 5</span></div>
+          </div>
+          <div class="port-item port-placeholder">
+            <div class="port-placeholder-inner">🎬<br><small>Más proyectos</small></div>
+            <div class="port-overlay"><span>Ver más →</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ══════════════ CONTACT ══════════════ -->
+    <section class="section section-alt" id="contacto">
+      <div class="container">
+        <div class="contact-grid">
+          <div class="contact-info">
+            <div class="eyebrow">Hablemos</div>
+            <h2 class="section-title">Contáctanos</h2>
+            <p style="color: var(--silver); font-weight: 300; margin-bottom: 2rem; line-height: 1.7;">
+              ¿Listo para llevar tu marca al siguiente nivel? Escríbenos y trabajemos juntos.
+            </p>
+            <div class="contact-item">
+              <div class="contact-icon">📞</div>
+              <div>
+                <div class="contact-label">Teléfono / WhatsApp</div>
+                <a href="https://wa.me/573502654199" class="contact-value">+57 350 265 4199</a>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="contact-icon">✉️</div>
+              <div>
+                <div class="contact-label">Correo Electrónico</div>
+                <a href="mailto:designservicegbr@gmail.com" class="contact-value">designservicegbr@gmail.com</a>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="contact-icon">📍</div>
+              <div>
+                <div class="contact-label">Ubicación</div>
+                <div class="contact-value">Cajicá, Cundinamarca, Colombia</div>
+              </div>
+            </div>
+            <div class="social-row">
+              <a href="https://wa.me/573502654199" target="_blank" class="social-btn" title="WhatsApp">
+                <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12.004 2C6.486 2 2.01 6.477 2.01 11.996c0 1.995.531 3.878 1.462 5.51L2 22l4.611-1.443a9.94 9.94 0 0 0 5.393 1.567h.005c5.517 0 9.992-4.477 9.992-9.996C21.999 6.477 17.522 2.001 12.004 2Zm0 18.05a8.03 8.03 0 0 1-4.099-1.122l-.294-.176-3.058.957.968-2.98-.192-.306a8.04 8.04 0 0 1-1.242-4.287c0-4.44 3.617-8.053 8.062-8.053 4.442 0 8.055 3.616 8.055 8.056 0 4.44-3.613 8.056-8.055 8.056Z"/></svg>
+              </a>
+              <a href="https://www.instagram.com/designservice_gbr" target="_blank" class="social-btn" title="Instagram">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="2.5" y="2.5" width="19" height="19" rx="5.5"/><circle cx="12" cy="12" r="4.4"/><circle cx="17.4" cy="6.6" r="1.15" fill="currentColor" stroke="none"/></svg>
+              </a>
+              <a href="https://www.facebook.com" target="_blank" class="social-btn" title="Facebook">
+                <svg viewBox="0 0 24 24" fill="currentColor"><path d="M13.5 21v-7.9h2.65l.4-3.08H13.5V8.06c0-.89.25-1.5 1.52-1.5h1.63V3.8C16.36 3.75 15.36 3.66 14.2 3.66c-2.42 0-4.08 1.48-4.08 4.19v2.34H7.46v3.08h2.66V21h3.38Z"/></svg>
+              </a>
+              <a href="https://www.tiktok.com/@designservicesgbr" target="_blank" class="social-btn" title="TikTok">
+                <svg viewBox="0 0 24 24" fill="currentColor"><path d="M16.7 3h-3.3v12.6a2.6 2.6 0 1 1-2.6-2.7c.26 0 .5.03.74.09V9.6a5.9 5.9 0 0 0-.74-.05A5.95 5.95 0 1 0 16.7 15.5V9.2a7.9 7.9 0 0 0 4.3 1.27V7.15A4.6 4.6 0 0 1 16.7 3Z"/></svg>
+              </a>
+            </div>
+          </div>
+          <form class="contact-form" onsubmit="handleForm(event)">
+            <div class="form-group">
+              <label for="name">Nombre</label>
+              <input type="text" id="name" placeholder="Tu nombre completo" required />
+            </div>
+            <div class="form-group">
+              <label for="email">Correo Electrónico</label>
+              <input type="email" id="email" placeholder="tucorreo@email.com" required />
+            </div>
+            <div class="form-group">
+              <label for="subject">Asunto</label>
+              <input type="text" id="subject" placeholder="¿En qué podemos ayudarte?" />
+            </div>
+            <div class="form-group">
+              <label for="message">Mensaje</label>
+              <textarea id="message" rows="5" placeholder="Cuéntanos sobre tu proyecto..." required></textarea>
+            </div>
+            <button type="submit" class="btn-primary" style="width: 100%; border: none; cursor: pointer; font-family: inherit;">
+              Enviar Mensaje →
+            </button>
+            <div id="form-success" class="form-success" style="display:none;">
+              ✅ ¡Mensaje enviado! Te contactaremos pronto.
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ══════════════ FOOTER ══════════════ -->
+  <footer class="footer">
+    <div class="footer-brand">SHIFT STUDIO — CREATIVE MEDIA PARTNER</div>
+    <div class="footer-social">
+      <a href="https://www.instagram.com/designservice_gbr" target="_blank">@shiftstudiocolombia</a>
+      <span>·</span>
+      <a href="https://www.tiktok.com/@designservicesgbr" target="_blank">@shiftstudiocolombia</a>
+    </div>
+    <div class="footer-copy">© 2026 · Cajicá, Colombia · Todos los derechos reservados</div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
